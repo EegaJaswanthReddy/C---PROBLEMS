@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float data_Used;
+    scanf("%f", &data_Used);
+    if (data_Used > 2.0) {
+        printf("Data limit ");
+    } else {
+        printf("Data within limit");
+    }
+
+    return 0;
+}
