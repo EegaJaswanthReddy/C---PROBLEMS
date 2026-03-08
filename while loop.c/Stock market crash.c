@@ -18,7 +18,7 @@ int main() {
             drops++;
             consecutive++;
             if(consecutive == 3 && crashDay == -1) {
-                crashDay = i + 1;   // day number
+                crashDay = i + 1;  
             }
         } 
         else {
